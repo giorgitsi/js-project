@@ -1,0 +1,76 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(275, 100%, 97%);
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 650;
+    font-style: normal;
+
+}
+
+
+/* - White: hsl(0, 0%, 100%)
+- Light pink: hsl(275, 100%, 97%)
+- Grayish purple: hsl(292, 16%, 49%)
+- Dark purple: hsl(292, 42%, 14%) */
+
+
+.desktop-img{
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.icon-h2{
+    display: flex;
+    align-items: center;
+    font-size: 45px;
+    gap: 20px;
+    color: hsl(292, 42%, 14%);
+}
+
+.content-container{
+
+    background-color: white;
+    position: absolute;
+    padding:50px 30px;
+    border-radius: 20px;
+    top: 220px;
+
+}
+
+.p-container{
+    margin-top: 30px;
+}
+
+.show-text{
+    opacity: 0.5;
+    display: none;
+    
+}
+.p{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.minus-icon{
+    display: none;
+}
+
+.p:hover{
+    color: rgba(152,50,193,255);
+    transition: 0.2s;
+    cursor: pointer;
+}
